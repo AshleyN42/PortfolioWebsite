@@ -1,7 +1,14 @@
 var displayedImage = document.querySelector('.displayed-img');
 var thumbBar = document.querySelector('.thumb-bar');
 
+var btn = document.querySelector('button');
+var overlay = document.querySelector('.overlay');
+
 /* Looping through images */
+
+function displayImage(e) {
+  displayedImage.setAttribute('src', e.target.getAttribute('src'));
+}
 
 for (let i = 1; i <= 5; i++) {
   const newImage = document.createElement('img');
