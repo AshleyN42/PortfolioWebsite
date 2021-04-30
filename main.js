@@ -1,5 +1,6 @@
 var displayedImage = document.querySelector('.displayed-img');
 var thumbBar = document.querySelector('.thumb-bar');
+
 var btn = document.querySelector('button');
 var overlay = document.querySelector('.overlay');
 
